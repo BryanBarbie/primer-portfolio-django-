@@ -1,0 +1,125 @@
+
+/* IMAGENES DE FONDO DE LAS PAGINAS */
+
+.home {
+    background-image: url(../img/arbol.jpg);
+}
+
+.about {
+    background-image: url(../img/about-bg2.jpg);
+}
+
+.portfolio {
+    background-image: url(../img/portfolio-bg.jpeg);
+}
+
+.contact {
+    background-image: url(../img/contact.jpg);
+}
+
+.imagen-fondo {
+    background-position: center center;
+    min-height: 60vh;
+    background-attachment:scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-perfil {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.titulos {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+/* FOOTER */
+
+.footer {
+    grid-area: footer;
+    background-color: #0364a5;
+    color: #dadada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__texto {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer__lista {
+	text-decoration: none;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.footer__icono {
+	color: #b9b9b9;
+	font-size: 30px;
+	padding: 0 10px;
+	display: block;
+}
+
+.footer__icono:hover {
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__texto {
+        font-size: 14px;
+        flex-wrap: wrap;
+        font-weight: normal;
+        text-align: center;
+    }
+}
+
+/* CONOCIMIENTOS - MANEJO DE LOS ICONOS */
+
+.skills__container {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+.card__skills {
+    margin: 20px 15px;
+    padding: 20px 20px;
+    max-height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill__logo {
+    width: 70px;
+    height: auto;
+}
+
+.skill__titulo {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #033F62;
+}
